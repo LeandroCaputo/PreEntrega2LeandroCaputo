@@ -1,0 +1,88 @@
+/* ------- Index -------- */
+#navbarNav a {
+    color: orangered;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Krona One', sans-serif;
+
+}
+
+#navbarNav a:hover {
+    border: 2px solid gainsboro;
+    background-color: black;
+    color: gainsboro;
+    transition: 0.8s;
+}
+
+.carousl-inner {
+    max-height: 39rem;
+
+}
+
+footer {
+    text-align: center;
+    color: orangered;
+    text-align: center;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+
+}
+
+
+
+
+/* -----------Media Queris--------*/
+@media (max-width:768px) {
+    #intro {
+        width: 90% !important;
+    }
+
+    .footer {
+        width: 90% !important;
+    }
+}
+
+
+
+/* -------------- Delivery -------------- */
+.formulario {
+    background-color: rgb(255, 68, 0);
+    border-style: solid;
+    margin-top: 30px;
+}
+
+.cuerpo {
+    background-color: black;
+}
+
+/* ---------------- Locales --------------- */
+
+.mapa {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.direcciones {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 800;
+}
+
+/* --------------- Productos --------- */
+
+.h5 {
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.h5:hover {
+    border: 2px solid gainsboro;
+    background-color: black;
+    color: gainsboro;
+}
+
+.tarjeta__cuerpo {
+    background-color: bisque;
+}
